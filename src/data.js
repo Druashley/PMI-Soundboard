@@ -8,6 +8,12 @@ import zitoDoingGood from "./sounds/zito-doingreallygood.mp3";
 import zitoHellyah from "./sounds/zito-hellyeah.mp3";
 import zitoPromoteVote from "./sounds/zito-promotethevote.mp3";
 import gumpDahn from "./sounds/gump-dahn.mp3";
+import tyCocaine from "./sounds/ty-cocaine.mp3";
+import tyVote from "./sounds/ty-vote.mp3";
+import connorNoway from "./sounds/connor-noway.mp3";
+import zitoWhat from "./sounds/zito-what.mp3";
+import zitoHype from "./sounds/zito-hype.mp3";
+import mettOrder from "./sounds/mett-order.mp3";
 
 function soundList(stooge) {
   switch (stooge) {
@@ -33,6 +39,10 @@ function soundList(stooge) {
           title: "Your shitty team",
           clip: shitTeam,
         },
+        {
+          title: "No way",
+          clip: connorNoway,
+        },
       ];
     case "hawk":
       return [
@@ -47,12 +57,27 @@ function soundList(stooge) {
           title: "Hell Yeah",
           clip: tyHellyah,
         },
+        {
+          title: "Cocaine",
+          clip: tyCocaine,
+        },
+        {
+          title: "Vote",
+          clip: tyVote,
+        },
       ];
     case "gump":
       return [
         {
           title: "Dahn",
           clip: gumpDahn,
+        },
+      ];
+    case "mett":
+      return [
+        {
+          title: "Order",
+          clip: mettOrder,
         },
       ];
 
@@ -69,6 +94,14 @@ function soundList(stooge) {
         {
           title: "Promote",
           clip: zitoPromoteVote,
+        },
+        {
+          title: "What",
+          clip: zitoWhat,
+        },
+        {
+          title: "Hype",
+          clip: zitoHype,
         },
       ];
 
