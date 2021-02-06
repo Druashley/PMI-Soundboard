@@ -1,6 +1,7 @@
 import "./App.css";
 import TitleSection from "./components/TitleSection";
 import FooterSection from "./components/FooterSection";
+import StoogeBadge from "./components/StoogeBadge";
 import { useState } from "react";
 import Button from "./components/Button";
 
@@ -13,6 +14,9 @@ function App() {
     <div className="App">
       <div className="flex flex-col h-screen">
         <TitleSection />
+        <div className="w-80 ml-24 mb-4">
+          <StoogeBadge />
+        </div>
         <div className="md:container md:mx-auto">
           <label
             className="text-gray-700 italic font-bold ml-4 "
@@ -39,6 +43,7 @@ function App() {
             </select>
           </label>
         </div>
+
         <div className="md:container md:mx-auto flex-grow">
           {soundList(stooge).map((sound) => (
             <Button title={sound.title} sound={sound.clip} key={sound.clip} />
