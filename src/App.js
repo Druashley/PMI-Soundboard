@@ -21,6 +21,7 @@ function App() {
               name={badge.name}
               handle={badge.handle}
               link={badge.link}
+              key={badge.name}
             />
           ))}
         </div>

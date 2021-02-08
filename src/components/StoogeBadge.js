@@ -6,7 +6,7 @@ const StoogeBadge = ({ picture, name, handle, link }) => {
       <div className="flex-row gap-4 flex justify-center items-center">
         <div className="flex-shrink-0">
           <img
-            alt="profil"
+            alt="profile"
             src={picture}
             className="mx-auto object-cover rounded-full h-16 w-16 "
           />

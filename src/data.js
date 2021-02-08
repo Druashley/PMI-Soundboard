@@ -14,6 +14,14 @@ import connorNoway from "./sounds/connor-noway.mp3";
 import zitoWhat from "./sounds/zito-what.mp3";
 import zitoHype from "./sounds/zito-hype.mp3";
 import mettOrder from "./sounds/mett-order.mp3";
+import patNoNoNo from "./sounds/pat-nonono.mp3";
+import gumpPee from "./sounds/gump-pee.mp3";
+import patSituation from "./sounds/pat-situations.mp3";
+import hawkWhatHappened from "./sounds/hawk-whatHappened.mp3";
+import hawkPat from "./sounds/hawk-pat.mp3";
+import hawkSituation from "./sounds/hawk-situations.mp3";
+import patStooge from "./sounds/pat-stooge.mp3";
+import tyAppreciate from "./sounds/ty-appreciate.mp3";
 
 import patBadge from "./imgs/pat-badge.jpg";
 import hawkBadge from "./imgs/hawk-badge.jpg";
@@ -40,6 +48,18 @@ function soundList(stooge) {
           title: "Thousands",
           clip: thousands,
         },
+        {
+          title: "NO NO NO",
+          clip: patNoNoNo,
+        },
+        {
+          title: "Situation",
+          clip: patSituation,
+        },
+        {
+          title: "Stooge",
+          clip: patStooge,
+        },
       ];
 
     case "connor":
@@ -59,6 +79,18 @@ function soundList(stooge) {
           title: "Pyramid",
           clip: hawkPyramid,
         },
+        {
+          title: "What just happened?",
+          clip: hawkWhatHappened,
+        },
+        {
+          title: "Pat Mcafee",
+          clip: hawkPat,
+        },
+        {
+          title: "Situations",
+          clip: hawkSituation,
+        },
       ];
     case "ty":
       return [
@@ -74,12 +106,20 @@ function soundList(stooge) {
           title: "Vote",
           clip: tyVote,
         },
+        {
+          title: "Appreciate",
+          clip: tyAppreciate,
+        },
       ];
     case "gump":
       return [
         {
           title: "Dahn",
           clip: gumpDahn,
+        },
+        {
+          title: "Pee",
+          clip: gumpPee,
         },
       ];
     case "mett":
