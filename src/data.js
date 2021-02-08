@@ -15,6 +15,15 @@ import zitoWhat from "./sounds/zito-what.mp3";
 import zitoHype from "./sounds/zito-hype.mp3";
 import mettOrder from "./sounds/mett-order.mp3";
 
+import patBadge from "./imgs/pat-badge.jpg";
+import hawkBadge from "./imgs/hawk-badge.jpg";
+import connorBadge from "./imgs/connor-badge.jpg";
+import gumpBadge from "./imgs/gump-badge.jpg";
+import mettBadge from "./imgs/mett-badge.jpg";
+import tyBadge from "./imgs/ty-badge.jpg";
+import zitoBadge from "./imgs/zito-badge.jpg";
+import druBadge from "./imgs/dru-badge.jpg";
+
 function soundList(stooge) {
   switch (stooge) {
     case "pat":
@@ -107,6 +116,85 @@ function soundList(stooge) {
 
     default:
       return [];
+  }
+}
+
+export function socialList(stooge) {
+  switch (stooge) {
+    case "pat":
+      return [
+        {
+          picture: patBadge,
+          name: "Pat Mcafee",
+          handle: "@PatMcAfeeShow",
+          link: "https://twitter.com/patmcafeeshow",
+        },
+      ];
+    case "hawk":
+      return [
+        {
+          picture: hawkBadge,
+          name: "AJ Hawk",
+          handle: "@OfficialAJHawk",
+          link: "https://twitter.com/OfficialAJHawk",
+        },
+      ];
+    case "connor":
+      return [
+        {
+          picture: connorBadge,
+          name: "Boston Connor",
+          handle: "@BostonConnr",
+          link: "https://twitter.com/bostonconnr",
+        },
+      ];
+    case "gump":
+      return [
+        {
+          picture: gumpBadge,
+          name: "Gump Cathcart",
+          handle: "@bubbagumpino",
+          link: "https://twitter.com/bubbagumpino",
+        },
+      ];
+    case "mett":
+      return [
+        {
+          picture: mettBadge,
+          name: "Mett",
+          handle: "@PMIMett",
+          link: "https://twitter.com/pmimett",
+        },
+      ];
+
+    case "ty":
+      return [
+        {
+          picture: tyBadge,
+          name: "Ty Schmit",
+          handle: "@tyschmit",
+          link: "https://twitter.com/tyschmit",
+        },
+      ];
+    case "zito":
+      return [
+        {
+          picture: zitoBadge,
+          name: "Lord Zito",
+          handle: "@VivalaZito",
+          link: "https://twitter.com/VivalaZito",
+        },
+      ];
+
+    default:
+      return [
+        {
+          picture: druBadge,
+          name: "Dru Ashley",
+          handle: "@Dru_ashley",
+          link: "https://twitter.com/Dru_ashley",
+        },
+      ];
   }
 }
 

@@ -5,7 +5,7 @@ import StoogeBadge from "./components/StoogeBadge";
 import { useState } from "react";
 import Button from "./components/Button";
 
-import soundList from "./data";
+import soundList, { socialList } from "./data";
 
 function App() {
   const [stooge, setStooge] = useState("");
@@ -14,8 +14,15 @@ function App() {
     <div className="App">
       <div className="flex flex-col h-screen">
         <TitleSection />
-        <div className="w-80 ml-24 mb-4">
-          <StoogeBadge />
+        <div className="w-80 sm:ml-36 mb-4 mx-auto">
+          {socialList(stooge).map((badge) => (
+            <StoogeBadge
+              picture={badge.picture}
+              name={badge.name}
+              handle={badge.handle}
+              link={badge.link}
+            />
+          ))}
         </div>
         <div className="md:container md:mx-auto">
           <label

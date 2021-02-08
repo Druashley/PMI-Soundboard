@@ -3,7 +3,7 @@ import React from "react";
 const TitleSection = () => {
   return (
     <section className="text-gray-700 body-font">
-      <div className="container px-8 pt-20 pb-10 mx-auto lg:px-4">
+      <div className="container px-8 pt-20 lg:pb-4 mx-auto lg:px-4">
         <div className="flex flex-col w-full mb-12 text-left lg:text-center">
           <h2 className="mb-1 text-xs font-semibold tracking-widest text-blue-600 uppercase title-font">
             Listen to your favorite stooge
