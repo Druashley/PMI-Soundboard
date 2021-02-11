@@ -22,6 +22,13 @@ import hawkPat from "./sounds/hawk-pat.mp3";
 import hawkSituation from "./sounds/hawk-situations.mp3";
 import patStooge from "./sounds/pat-stooge.mp3";
 import tyAppreciate from "./sounds/ty-appreciate.mp3";
+import tyWoods from "./sounds/ty-woods.mp3";
+import patJeez from "./sounds/pat-jeez.mp3";
+import patAmc from "./sounds/pat-amc.mp3";
+import tyRight from "./sounds/ty-Right.mp3";
+import patStinks from "./sounds/pat-stinks.mp3";
+import patShow from "./sounds/pat-myshow.mp3";
+import patWelcome from "./sounds/pat-welcome.mp3";
 
 import patBadge from "./imgs/pat-badge.jpg";
 import hawkBadge from "./imgs/hawk-badge.jpg";
@@ -59,6 +66,26 @@ function soundList(stooge) {
         {
           title: "Stooge",
           clip: patStooge,
+        },
+        {
+          title: "Jeez",
+          clip: patJeez,
+        },
+        {
+          title: "AMC",
+          clip: patAmc,
+        },
+        {
+          title: "This Show Stinks",
+          clip: patStinks,
+        },
+        {
+          title: "My Show",
+          clip: patShow,
+        },
+        {
+          title: "Welcome aboard",
+          clip: patWelcome,
         },
       ];
 
@@ -109,6 +136,14 @@ function soundList(stooge) {
         {
           title: "Appreciate",
           clip: tyAppreciate,
+        },
+        {
+          title: "Woods",
+          clip: tyWoods,
+        },
+        {
+          title: "That's right",
+          clip: tyRight,
         },
       ];
     case "gump":
