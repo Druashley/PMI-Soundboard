@@ -29,6 +29,11 @@ import tyRight from "./sounds/ty-Right.mp3";
 import patStinks from "./sounds/pat-stinks.mp3";
 import patShow from "./sounds/pat-myshow.mp3";
 import patWelcome from "./sounds/pat-welcome.mp3";
+import patGetGot from "./sounds/pat-getgot.mp3";
+import hawkUsedTo from "./sounds/hawk-usedto.mp3";
+import patBear from "./sounds/pat-bear-moose-elk.mp3";
+import connorFathers from "./sounds/connor-fathers.mp3";
+import patNotTrue from "./sounds/pat-nottrue.mp3";
 
 import patBadge from "./imgs/pat-badge.jpg";
 import hawkBadge from "./imgs/hawk-badge.jpg";
@@ -87,6 +92,18 @@ function soundList(stooge) {
           title: "Welcome aboard",
           clip: patWelcome,
         },
+        {
+          title: "Get Got",
+          clip: patGetGot,
+        },
+        {
+          title: "Bear Moose Elk",
+          clip: patBear,
+        },
+        {
+          title: "Not True",
+          clip: patNotTrue,
+        },
       ];
 
     case "connor":
@@ -98,6 +115,10 @@ function soundList(stooge) {
         {
           title: "No way",
           clip: connorNoway,
+        },
+        {
+          title: "Founding Fathers",
+          clip: connorFathers,
         },
       ];
     case "hawk":
@@ -117,6 +138,10 @@ function soundList(stooge) {
         {
           title: "Situations",
           clip: hawkSituation,
+        },
+        {
+          title: "I don't watch",
+          clip: hawkUsedTo,
         },
       ];
     case "ty":
