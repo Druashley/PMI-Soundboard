@@ -8,21 +8,11 @@ const FooterSection = () => {
           <li className="my-2">
             <a
               className="text-blue-600 hover:text-blue-700 hover:underline dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
-              href="https://www.druashley.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Made by Druashley
-            </a>
-          </li>
-          <li className="my-2">
-            <a
-              className="text-blue-600 hover:text-blue-70 hover:underline  dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
               href="https://twitter.com/Dru_ashley"
               target="_blank"
               rel="noreferrer"
             >
-              Twitter
+              Made by Druashley
             </a>
           </li>
           <li className="my-2">

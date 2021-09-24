@@ -67,6 +67,18 @@ function soundList(stooge) {
           title: "Not True",
           clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-nottrue.mp3",
         },
+        {
+          title: "Honest",
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-honest.mp3",
+        },
+        {
+          title: "Taking my Money",
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-toomuchmoney.mp3",
+        },
+        {
+          title: "StateFarm",
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-statefarm.mp3",
+        },
       ];
 
     case "connor":

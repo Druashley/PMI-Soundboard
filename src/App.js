@@ -30,17 +30,16 @@ function App() {
             className="text-gray-700 italic font-bold ml-4 "
             htmlFor="persons"
           >
-            Stooge
+            Pick A Stooge To Get Started
             <select
               id="persons"
               className=" ml-4 block w-52 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-700"
               name="persons"
               onChange={(e) => {
-                const selectedStooge = e.target.value;
-                setStooge(selectedStooge);
+                setStooge(e.target.value);
               }}
             >
-              <option value="">Pick a stooge</option>
+              <option value="">Stooge</option>
               <option value="hawk">AJ Hawk</option>
               <option value="connor">Connor</option>
               <option value="gump">Gump</option>
