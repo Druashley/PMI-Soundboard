@@ -1,40 +1,3 @@
-import beautifulPeople from "./sounds/pat-beautiful-people.mp3";
-import overReaction from "./sounds/pat-over-reaction-monday.mp3";
-import thousands from "./sounds/pat-thousands.mp3";
-import shitTeam from "./sounds/connor-shittyteam.mp3";
-import hawkPyramid from "./sounds/hawk-pyramid.mp3";
-import tyHellyah from "./sounds/ty-hellyah.mp3";
-import zitoDoingGood from "./sounds/zito-doingreallygood.mp3";
-import zitoHellyah from "./sounds/zito-hellyeah.mp3";
-import zitoPromoteVote from "./sounds/zito-promotethevote.mp3";
-import gumpDahn from "./sounds/gump-dahn.mp3";
-import tyCocaine from "./sounds/ty-cocaine.mp3";
-import tyVote from "./sounds/ty-vote.mp3";
-import connorNoway from "./sounds/connor-noway.mp3";
-import zitoWhat from "./sounds/zito-what.mp3";
-import zitoHype from "./sounds/zito-hype.mp3";
-import mettOrder from "./sounds/mett-order.mp3";
-import patNoNoNo from "./sounds/pat-nonono.mp3";
-import gumpPee from "./sounds/gump-pee.mp3";
-import patSituation from "./sounds/pat-situations.mp3";
-import hawkWhatHappened from "./sounds/hawk-whatHappened.mp3";
-import hawkPat from "./sounds/hawk-pat.mp3";
-import hawkSituation from "./sounds/hawk-situations.mp3";
-import patStooge from "./sounds/pat-stooge.mp3";
-import tyAppreciate from "./sounds/ty-appreciate.mp3";
-import tyWoods from "./sounds/ty-woods.mp3";
-import patJeez from "./sounds/pat-jeez.mp3";
-import patAmc from "./sounds/pat-amc.mp3";
-import tyRight from "./sounds/ty-Right.mp3";
-import patStinks from "./sounds/pat-stinks.mp3";
-import patShow from "./sounds/pat-myshow.mp3";
-import patWelcome from "./sounds/pat-welcome.mp3";
-import patGetGot from "./sounds/pat-getgot.mp3";
-import hawkUsedTo from "./sounds/hawk-usedto.mp3";
-import patBear from "./sounds/pat-bear-moose-elk.mp3";
-import connorFathers from "./sounds/connor-fathers.mp3";
-import patNotTrue from "./sounds/pat-nottrue.mp3";
-
 import patBadge from "./imgs/pat-badge.jpg";
 import hawkBadge from "./imgs/hawk-badge.jpg";
 import connorBadge from "./imgs/connor-badge.jpg";
@@ -50,59 +13,59 @@ function soundList(stooge) {
       return [
         {
           title: "Good afternoon",
-          clip: beautifulPeople,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-beautiful-people.mp3",
         },
         {
           title: "Monday",
-          clip: overReaction,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-over-reaction-monday.mp3",
         },
         {
           title: "Thousands",
-          clip: thousands,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-thousands.mp3",
         },
         {
           title: "NO NO NO",
-          clip: patNoNoNo,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-nonono.mp3",
         },
         {
           title: "Situation",
-          clip: patSituation,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-situations.mp3",
         },
         {
           title: "Stooge",
-          clip: patStooge,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-stooge.mp3",
         },
         {
           title: "Jeez",
-          clip: patJeez,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-jeez.mp3",
         },
         {
           title: "AMC",
-          clip: patAmc,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-amc.mp3",
         },
         {
           title: "This Show Stinks",
-          clip: patStinks,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-stinks.mp3",
         },
         {
           title: "My Show",
-          clip: patShow,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-myshow.mp3",
         },
         {
           title: "Welcome aboard",
-          clip: patWelcome,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-welcome.mp3",
         },
         {
           title: "Get Got",
-          clip: patGetGot,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-getgot.mp3",
         },
         {
           title: "Bear Moose Elk",
-          clip: patBear,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-bear-moose-elk.mp3",
         },
         {
           title: "Not True",
-          clip: patNotTrue,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/pat/pat-nottrue.mp3",
         },
       ];
 
@@ -110,83 +73,83 @@ function soundList(stooge) {
       return [
         {
           title: "Your shitty team",
-          clip: shitTeam,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/connor/connor-shittyteam.mp3",
         },
         {
           title: "No way",
-          clip: connorNoway,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/connor/connor-noway.mp3",
         },
         {
           title: "Founding Fathers",
-          clip: connorFathers,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/connor/connor-fathers.mp3",
         },
       ];
     case "hawk":
       return [
         {
           title: "Pyramid",
-          clip: hawkPyramid,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/hawk/hawk-pyramid.mp3",
         },
         {
           title: "What just happened?",
-          clip: hawkWhatHappened,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/hawk/hawk-whatHappened.mp3",
         },
         {
           title: "Pat Mcafee",
-          clip: hawkPat,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/hawk/hawk-pat.mp3",
         },
         {
           title: "Situations",
-          clip: hawkSituation,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/hawk/hawk-situations.mp3",
         },
         {
           title: "I don't watch",
-          clip: hawkUsedTo,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/hawk/hawk-usedto.mp3",
         },
       ];
     case "ty":
       return [
         {
           title: "Hell Yeah",
-          clip: tyHellyah,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/ty/ty-hellyah.mp3",
         },
         {
           title: "Cocaine",
-          clip: tyCocaine,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/ty/ty-cocaine.mp3",
         },
         {
           title: "Vote",
-          clip: tyVote,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/ty/ty-vote.mp3",
         },
         {
           title: "Appreciate",
-          clip: tyAppreciate,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/ty/ty-appreciate.mp3",
         },
         {
           title: "Woods",
-          clip: tyWoods,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/ty/ty-woods.mp3",
         },
         {
           title: "That's right",
-          clip: tyRight,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/ty/ty-Right.mp3",
         },
       ];
     case "gump":
       return [
         {
           title: "Dahn",
-          clip: gumpDahn,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/gump/gump-dahn.mp3",
         },
         {
           title: "Pee",
-          clip: gumpPee,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/gump/gump-pee.mp3",
         },
       ];
     case "mett":
       return [
         {
           title: "Order",
-          clip: mettOrder,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/mett/mett-order.mp3",
         },
       ];
 
@@ -194,23 +157,23 @@ function soundList(stooge) {
       return [
         {
           title: "Doing good",
-          clip: zitoDoingGood,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/zito/zito-doingreallygood.mp3",
         },
         {
           title: "Hell Yeah",
-          clip: zitoHellyah,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/zito/zito-hellyeah.mp3",
         },
         {
           title: "Promote",
-          clip: zitoPromoteVote,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/zito/zito-promotethevote.mp3",
         },
         {
           title: "What",
-          clip: zitoWhat,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/zito/zito-what.mp3",
         },
         {
           title: "Hype",
-          clip: zitoHype,
+          clip: "https://pmisoundboard.s3.us-east-2.amazonaws.com/sounds/zito/zito-hype.mp3",
         },
       ];
 
